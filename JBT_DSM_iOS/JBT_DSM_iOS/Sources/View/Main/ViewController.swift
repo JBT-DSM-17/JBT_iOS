@@ -13,11 +13,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         view.backgroundColor = .red
-        
-        Token.accessToken = "adfadf"
-        
-        print(Token.accessToken)
-
     }
 }
 
