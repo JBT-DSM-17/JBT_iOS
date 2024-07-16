@@ -12,9 +12,10 @@
 		D15054422C461904000E58A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15054412C461904000E58A0 /* ViewController.swift */; };
 		D15054472C461906000E58A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15054462C461906000E58A0 /* Assets.xcassets */; };
 		D150544A2C461906000E58A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D15054482C461906000E58A0 /* LaunchScreen.storyboard */; };
-		D150545B2C461BDA000E58A0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D150545A2C461BDA000E58A0 /* SnapKit */; };
-		D15054612C461E7A000E58A0 /* SwiftKeychainWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = D15054602C461E7A000E58A0 /* SwiftKeychainWrapper */; };
 		D15054642C461EAF000E58A0 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15054632C461EAF000E58A0 /* Header.swift */; };
+		D15054682C463048000E58A0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D15054672C463048000E58A0 /* SnapKit */; };
+		D150546B2C463053000E58A0 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = D150546A2C463053000E58A0 /* Then */; };
+		D150546E2C463059000E58A0 /* SwiftKeychainWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = D150546D2C463059000E58A0 /* SwiftKeychainWrapper */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,8 +34,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D15054612C461E7A000E58A0 /* SwiftKeychainWrapper in Frameworks */,
-				D150545B2C461BDA000E58A0 /* SnapKit in Frameworks */,
+				D15054682C463048000E58A0 /* SnapKit in Frameworks */,
+				D150546B2C463053000E58A0 /* Then in Frameworks */,
+				D150546E2C463059000E58A0 /* SwiftKeychainWrapper in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,8 +171,9 @@
 			);
 			name = JBT_DSM_iOS;
 			packageProductDependencies = (
-				D150545A2C461BDA000E58A0 /* SnapKit */,
-				D15054602C461E7A000E58A0 /* SwiftKeychainWrapper */,
+				D15054672C463048000E58A0 /* SnapKit */,
+				D150546A2C463053000E58A0 /* Then */,
+				D150546D2C463059000E58A0 /* SwiftKeychainWrapper */,
 			);
 			productName = JBT_DSM_iOS;
 			productReference = D150543A2C461904000E58A0 /* JBT_DSM_iOS.app */;
@@ -201,9 +204,9 @@
 			);
 			mainGroup = D15054312C461904000E58A0;
 			packageReferences = (
-				D15054592C461BDA000E58A0 /* XCRemoteSwiftPackageReference "SnapKit" */,
-				D150545C2C461BE5000E58A0 /* XCRemoteSwiftPackageReference "Then" */,
-				D150545F2C461E7A000E58A0 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */,
+				D15054662C463048000E58A0 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				D15054692C463053000E58A0 /* XCRemoteSwiftPackageReference "Then" */,
+				D150546C2C463059000E58A0 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */,
 			);
 			productRefGroup = D150543B2C461904000E58A0 /* Products */;
 			projectDirPath = "";
@@ -451,7 +454,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D15054592C461BDA000E58A0 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+		D15054662C463048000E58A0 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit";
 			requirement = {
@@ -459,7 +462,7 @@
 				minimumVersion = 5.7.1;
 			};
 		};
-		D150545C2C461BE5000E58A0 /* XCRemoteSwiftPackageReference "Then" */ = {
+		D15054692C463053000E58A0 /* XCRemoteSwiftPackageReference "Then" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/devxoul/Then";
 			requirement = {
@@ -467,7 +470,7 @@
 				minimumVersion = 3.0.0;
 			};
 		};
-		D150545F2C461E7A000E58A0 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */ = {
+		D150546C2C463059000E58A0 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/jrendel/SwiftKeychainWrapper";
 			requirement = {
@@ -478,14 +481,19 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D150545A2C461BDA000E58A0 /* SnapKit */ = {
+		D15054672C463048000E58A0 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D15054592C461BDA000E58A0 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			package = D15054662C463048000E58A0 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
 		};
-		D15054602C461E7A000E58A0 /* SwiftKeychainWrapper */ = {
+		D150546A2C463053000E58A0 /* Then */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D150545F2C461E7A000E58A0 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */;
+			package = D15054692C463053000E58A0 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		D150546D2C463059000E58A0 /* SwiftKeychainWrapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D150546C2C463059000E58A0 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */;
 			productName = SwiftKeychainWrapper;
 		};
 /* End XCSwiftPackageProductDependency section */
