@@ -18,7 +18,6 @@
 		D15054682C463048000E58A0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D15054672C463048000E58A0 /* SnapKit */; };
 		D150546B2C463053000E58A0 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = D150546A2C463053000E58A0 /* Then */; };
 		D150546E2C463059000E58A0 /* SwiftKeychainWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = D150546D2C463059000E58A0 /* SwiftKeychainWrapper */; };
-		D15054712C46360D000E58A0 /* JBTLoginTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15054702C46360C000E58A0 /* JBTLoginTF.swift */; };
 		D150547C2C463862000E58A0 /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = D15054732C463861000E58A0 /* Pretendard-Thin.otf */; };
 		D150547D2C463862000E58A0 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D15054742C463861000E58A0 /* Pretendard-Bold.otf */; };
 		D150547E2C463862000E58A0 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D15054752C463861000E58A0 /* Pretendard-ExtraBold.otf */; };
@@ -42,7 +41,6 @@
 		D15054492C461906000E58A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D150544B2C461906000E58A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D15054632C461EAF000E58A0 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
-		D15054702C46360C000E58A0 /* JBTLoginTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBTLoginTF.swift; sourceTree = "<group>"; };
 		D15054732C463861000E58A0 /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
 		D15054742C463861000E58A0 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
 		D15054752C463861000E58A0 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
@@ -69,19 +67,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6F83D6602C46326D00BD922A /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				6F83D6612C4632DC00BD922A /* JBTLoginTitleLabel.swift */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
 		D15054312C461904000E58A0 = {
 			isa = PBXGroup;
 			children = (
 				D150543C2C461904000E58A0 /* JBT_DSM_iOS */,
 				D150543B2C461904000E58A0 /* Products */,
+				D15054892C463CDA000E58A0 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,7 +108,7 @@
 		D15054522C461AF9000E58A0 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				D150546F2C4635CF000E58A0 /* Core */,
+				D15054852C463A5B000E58A0 /* Resources.swift */,
 				D15054582C461B99000E58A0 /* Network */,
 				D15054572C461B8F000E58A0 /* View */,
 			);
@@ -191,15 +182,6 @@
 			path = Auth;
 			sourceTree = "<group>";
 		};
-		D150546F2C4635CF000E58A0 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				D15054702C46360C000E58A0 /* JBTLoginTF.swift */,
-				D15054852C463A5B000E58A0 /* Resources.swift */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
 		D15054722C463733000E58A0 /* Font */ = {
 			isa = PBXGroup;
 			children = (
@@ -214,6 +196,14 @@
 				D15054732C463861000E58A0 /* Pretendard-Thin.otf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		D15054892C463CDA000E58A0 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				6F83D6612C4632DC00BD922A /* JBTLoginTitleLabel.swift */,
+			);
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,7 +298,6 @@
 				D15054642C461EAF000E58A0 /* Header.swift in Sources */,
 				6F83D6642C4632FE00BD922A /* JBTLoginViewController.swift in Sources */,
 				D15054422C461904000E58A0 /* ViewController.swift in Sources */,
-				D15054712C46360D000E58A0 /* JBTLoginTF.swift in Sources */,
 				D15054862C463A5B000E58A0 /* Resources.swift in Sources */,
 				D150543E2C461904000E58A0 /* AppDelegate.swift in Sources */,
 				D15054402C461904000E58A0 /* SceneDelegate.swift in Sources */,
