@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F83D6622C4632DC00BD922A /* JBTLoginTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F83D6612C4632DC00BD922A /* JBTLoginTitleLabel.swift */; };
+		6F83D6642C4632FE00BD922A /* JBTLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F83D6632C4632FE00BD922A /* JBTLoginViewController.swift */; };
 		D150543E2C461904000E58A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D150543D2C461904000E58A0 /* AppDelegate.swift */; };
 		D15054402C461904000E58A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D150543F2C461904000E58A0 /* SceneDelegate.swift */; };
 		D15054422C461904000E58A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15054412C461904000E58A0 /* ViewController.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F83D6612C4632DC00BD922A /* JBTLoginTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBTLoginTitleLabel.swift; sourceTree = "<group>"; };
+		6F83D6632C4632FE00BD922A /* JBTLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JBTLoginViewController.swift; path = JBT_DSM_iOS/Sources/Core/JBTLoginViewController.swift; sourceTree = SOURCE_ROOT; };
 		D150543A2C461904000E58A0 /* JBT_DSM_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JBT_DSM_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D150543D2C461904000E58A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D150543F2C461904000E58A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F83D6602C46326D00BD922A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6F83D6612C4632DC00BD922A /* JBTLoginTitleLabel.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 		D15054312C461904000E58A0 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +94,7 @@
 		D15054522C461AF9000E58A0 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				6F83D6602C46326D00BD922A /* Core */,
 				D15054582C461B99000E58A0 /* Network */,
 				D15054572C461B8F000E58A0 /* View */,
 			);
@@ -126,6 +139,7 @@
 		D150545D2C461C2D000E58A0 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				6F83D6632C4632FE00BD922A /* JBTLoginViewController.swift */,
 			);
 			name = Auth;
 			path = "며소";
@@ -235,9 +249,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D15054642C461EAF000E58A0 /* Header.swift in Sources */,
+				6F83D6642C4632FE00BD922A /* JBTLoginViewController.swift in Sources */,
 				D15054422C461904000E58A0 /* ViewController.swift in Sources */,
 				D150543E2C461904000E58A0 /* AppDelegate.swift in Sources */,
 				D15054402C461904000E58A0 /* SceneDelegate.swift in Sources */,
+				6F83D6622C4632DC00BD922A /* JBTLoginTitleLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
